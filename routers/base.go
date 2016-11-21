@@ -2,7 +2,7 @@ package routers
 
 import (
 	"github.com/astaxie/beego"
-	"github.com/dinp/builder/models"
+	"github.com/smartcaas/builder/models"
 	"github.com/toolkits/web"
 	"strconv"
 )
