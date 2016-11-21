@@ -129,7 +129,7 @@ func ParseConfig() {
 	dbname := beego.AppConfig.String("dbname")
 	dblink := fmt.Sprintf("%s:%s@tcp(%s:%s)/%s?charset=utf8", dbuser, dbpass, dbhost, dbport, dbname)
 	// dblink = "root:1234@/uic?charset=utf8&loc=Asia%2FChongqing"
-
+	//orm.DR_MySQL changed to orm.DRMySQL
 	orm.RegisterDriver("mysql", orm.DRMySQL)
 	orm.RegisterDataBase("default", "mysql", dblink+"&loc=Asia%2FChongqing", 30, 200)
 	// orm.DefaultTimeLoc = time.UTC
