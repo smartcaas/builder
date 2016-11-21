@@ -3,7 +3,7 @@ package models
 import (
 	"fmt"
 	"github.com/astaxie/beego/orm"
-	"github.com/dinp/builder/g"
+	"github.com/smartcaas/builder/g"
 	_ "github.com/go-sql-driver/mysql"
 	systool "github.com/toolkits/sys"
 	"html/template"
