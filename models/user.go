@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 	"github.com/astaxie/beego/httplib"
-	"github.com/dinp/builder/g"
+	"github.com/smartcaas/builder/g"
 )
 
 type User struct {
