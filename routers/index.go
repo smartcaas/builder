@@ -3,8 +3,8 @@ package routers
 import (
 	"fmt"
 	"github.com/astaxie/beego/orm"
-	"github.com/dinp/builder/g"
-	"github.com/dinp/builder/models"
+	"github.com/smartcaas/builder/g"
+	"github.com/smartcaas/builder/models"
 	filetool "github.com/toolkits/file"
 	str_ "github.com/toolkits/str"
 	"regexp"
