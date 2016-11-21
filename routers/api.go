@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"github.com/dinp/builder/g"
+	"github.com/smartcaas/builder/g"
 )
 
 type ApiController struct {
