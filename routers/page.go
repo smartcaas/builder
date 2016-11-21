@@ -2,8 +2,8 @@ package routers
 
 import (
 	"fmt"
-	"github.com/dinp/builder/g"
-	"github.com/dinp/builder/models"
+	"github.com/smartcaas/builder/g"
+	"github.com/smartcaas/builder/models"
 )
 
 type PageController struct {
